@@ -1,0 +1,137 @@
+/* Custom styles for Equipment Alarm System */
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #f8f9fa;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main container should take up available space */
+body > .container {
+    flex: 1 0 auto;
+}
+
+/* Footer styling */
+footer {
+    flex-shrink: 0;
+    margin-top: auto;
+}
+
+/* Card styling */
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+/* Alert status colors */
+.status-on {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.status-off {
+    color: #198754;
+}
+
+/* Table styling */
+.table th {
+    background-color: #f1f1f1;
+}
+
+/* Classification styling */
+.classification-urgent {
+    background-color: #dc3545;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+
+.classification-emergency {
+    background-color: #fd7e14;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+
+.classification-ordinary {
+    background-color: #0d6efd;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+
+/* Dashboard styling */
+.dashboard-card {
+    border-left: 5px solid #0d6efd;
+    transition: transform 0.3s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+.dashboard-card.urgent {
+    border-left-color: #dc3545;
+}
+
+.dashboard-card.emergency {
+    border-left-color: #fd7e14;
+}
+
+.dashboard-card.ordinary {
+    border-left-color: #0d6efd;
+}
+
+/* Icon coloring */
+.icon-voltage {
+    color: #0d6efd;
+}
+
+.icon-current {
+    color: #fd7e14;
+}
+
+.icon-oil {
+    color: #198754;
+}
+
+/* Form styling */
+.required-field::after {
+    content: " *";
+    color: red;
+}
+
+/* Custom button styling */
+.btn-activate {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.btn-deactivate {
+    background-color: #6c757d;
+    color: white;
+}
+
+/* Top alarms highlight */
+.top-alarm {
+    background-color: #fff3cd;
+}
+
+/* Search bar styling */
+.search-container {
+    margin-bottom: 20px;
+}
+
+/* Responsive table container */
+.table-responsive {
+    overflow-x: auto;
+} 
