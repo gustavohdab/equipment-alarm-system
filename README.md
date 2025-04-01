@@ -103,7 +103,7 @@ This system provides a straightforward interface for:
 │   ├── manage.php
 │   └── view.php
 ├── assets/             # Frontend assets
-│   ├── css/            # Custom CSS files (if any)
+│   ├── css/            # Custom CSS files
 │   └── js/             # JavaScript files (scripts.js)
 ├── equipment/          # Equipment CRUD PHP files
 │   ├── create.php
