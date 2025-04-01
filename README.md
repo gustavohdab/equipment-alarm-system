@@ -105,9 +105,6 @@ This system provides a straightforward interface for:
 ├── assets/             # Frontend assets
 │   ├── css/            # Custom CSS files (if any)
 │   └── js/             # JavaScript files (scripts.js)
-├── docs/               # Project documentation
-│   ├── archive/
-│   └── memory-bank/
 ├── equipment/          # Equipment CRUD PHP files
 │   ├── create.php
 │   ├── delete.php
@@ -121,6 +118,9 @@ This system provides a straightforward interface for:
 │   └── header.php      # Common page header & navigation
 ├── logs/               # Log viewing PHP file
 │   └── view.php
+├── tests/              # Test files
+│   └── Tester.php
+│   └── TestRunner.php
 ├── memory-bank/        # Adaptive Memory Bank (ignored by .cursorrules)
 ├── .gitignore
 ├── .cursorrules
